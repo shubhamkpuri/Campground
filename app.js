@@ -43,6 +43,6 @@ app.use(function(req,res,next){
 app.use(indexRoutes);
 app.use(commentRoutes);
 app.use(campgroundRoutes);
-app.listen(8000,function(){
+app.listen(process.ev.PORT || 8000,function(){
 	console.log("serving demo on port 8000");
 });
