@@ -1,13 +1,13 @@
 var express				=require("express"),
     app 				= express(),
-    bodyParser			=require("body-parser"), 
-    mongoose 			=require("mongoose"),
-	passport 			=require("passport"),
-	LocalStrategy		= require("passport-local"),
-	Campground 			= require("./models/campground"),
-	Comment  			=require("./models/comment"),
-	User				= 	require("./models/user"),
-	seedDB    			= require("./seeds");
+    bodyParser				=require("body-parser"), 
+    mongoose 				=require("mongoose"),
+    passport 				=require("passport"),
+    LocalStrategy			= require("passport-local"),
+    Campground 				= require("./models/campground"),
+    Comment  				=require("./models/comment"),
+    User				= require("./models/user"),
+    seedDB    				= require("./seeds");
 
 // requring routes
 
